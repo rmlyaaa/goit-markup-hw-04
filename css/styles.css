@@ -1,0 +1,392 @@
+:root {
+    --pressed-state-color: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px 0;
+    margin: 0 auto;
+}
+
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+
+.header-cont {
+    display: flex;
+}
+
+.web-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.logo-studio {
+    color: #2E2F42;
+}
+
+.header-nav {
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-list-item {}
+
+.nav-item-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+
+}
+
+.adress-list {
+    padding: 24px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.adress-list-item {}
+
+.adress-item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-item-text:hover,
+.nav-item-text:focus,
+.adress-item-text:hover,
+.adress-item-text:focus {
+    color: #404BBF;
+}
+
+
+
+.welcome-content {
+    background-color: #2E2F42;
+    display: flex;
+    max-height: 600px;
+    padding: 188px 0 188px;
+}
+
+.welcome-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 496px;
+
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+}
+
+.top-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+}
+
+.top-button:hover,
+.top-button:focus {
+    background: #404BBF;
+}
+
+.benefits {
+    margin-bottom: 120px;
+    padding: 120px 0;
+}
+
+.hidden-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.benefits-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.benefits-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.examples {
+    padding-bottom: 120px;
+}
+
+.examples-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.example-list {
+    display: flex;
+    gap: 24px;
+}
+
+.example-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+
+
+.team {
+    background-color: #F4F4FD;
+    padding: 120px 0 120px;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    min-height: 380px;
+}
+
+.team-item-cont {
+    padding: 32px 16px;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+
+footer [class="logo-studio"] {
+    color: #F4F4FD;
+}
+
+.web-logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+    width: 264px;
+}
+
+
+
+.filtr {}
+
+.button-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.filtr-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+    min-width: 70px;
+    height: 48px;
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+    color: #ffffff;
+    background: #404BBF;
+    border: 1px solid transparent;
+}
+
+.button {}
+
+.services {
+    padding: 96px 0 120px;
+}
+
+.services-card-list {}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.services-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.servises-card-text {
+    border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+    border-top: none;
+}
+
+.services-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+
+}
+
+.services-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
