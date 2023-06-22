@@ -356,12 +356,12 @@ img {
 
 /* CUSTOMERS */
 
-.customers {}
-
-.customers-container {
+.customers {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.customers-container {}
 
 .customers-title {
     font-weight: 700;
@@ -418,7 +418,7 @@ img {
 
 .container-footer {
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
 }
 
 footer [class="logo-studio"] {
